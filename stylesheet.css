@@ -108,3 +108,27 @@ nav ul ul ul li {
 /* Change this in order to change the Dropdown symbol */
 li > a:after { content:  ' +'; }
 li > a:only-child:after { content: ''; }
+
+note {
+	padding:1em;
+	border-radius:0.3em;
+	border-color:#66f;
+	background-color:#66f7;
+	display:block;
+}
+
+warning {
+	padding:1em;
+	border-radius:0.3em;
+	border-color:#f66;
+	background-color:#f667;
+	display:block;
+}
+
+caution {
+	padding:1em;
+	border-radius:0.3em;
+	border-color:#ff6;
+	background-color:#ff67;
+	display:block;
+}
