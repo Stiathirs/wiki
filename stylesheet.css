@@ -86,8 +86,8 @@ note {
 	padding:1em;
 	border-radius:0.3em;
 	border-width:0.2em;
-	border-color:#66f;
-	background-color:#66fc;
+	border-color:#44d;
+	background-color:#66f;
 	display:block;
 }
 
@@ -95,8 +95,8 @@ warning {
 	padding:1em;
 	border-radius:0.3em;
 	border-width:0.2em;
-	border-color:#f66;
-	background-color:#f66c;
+	border-color:#d44;
+	background-color:#f66;
 	display:block;
 }
 
@@ -104,7 +104,7 @@ caution {
 	padding:1em;
 	border-radius:0.3em;
 	border-width:0.2em;
-	border-color:#ff6;
-	background-color:#ff6c;
+	border-color:#dd4;
+	background-color:#ff6;
 	display:block;
 }
