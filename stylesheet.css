@@ -80,11 +80,19 @@ li > a:only-child:after { content: ''; }
 
 caution, warning, note {
 	padding:1em;
+	border-style:solid;
 	border-radius:0.3em;
-	border-width:5px;
+	border-width:0.5em;
 	display:block;
 	color:#000000;
 	text-align:center;
+}
+
+blockquote {
+	border-left-style:solid;
+	border-left-width:0.3em;
+	border-left-color:#666;
+	padding-left:0.5em;
 }
 
 note {
