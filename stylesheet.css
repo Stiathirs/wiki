@@ -10,14 +10,10 @@ body {
 	color: #fff;
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
-	}	
+}	
 
 #container {
 	margin: 0 auto;
-}
-
-p {
-	text-align: center;
 }
 
 nav {
@@ -85,26 +81,29 @@ li > a:only-child:after { content: ''; }
 note {
 	padding:1em;
 	border-radius:0.3em;
-	border-width:0.2em;
+	border-width:0.5em;
 	border-color:#44d;
 	background-color:#66f;
 	display:block;
+	color:#000000
 }
 
 warning {
 	padding:1em;
 	border-radius:0.3em;
-	border-width:0.2em;
+	border-width:0.5em;
 	border-color:#d44;
 	background-color:#f66;
 	display:block;
+	color:#000000
 }
 
 caution {
 	padding:1em;
 	border-radius:0.3em;
-	border-width:0.2em;
+	border-width:0.5em;
 	border-color:#dd4;
 	background-color:#ff6;
 	display:block;
+	color:#000000
 }
