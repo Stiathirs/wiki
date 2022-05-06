@@ -78,32 +78,26 @@ nav ul ul ul li {
 li > a:after { content:  ' +'; }
 li > a:only-child:after { content: ''; }
 
-note {
+caution, warning, note {
 	padding:1em;
 	border-radius:0.3em;
-	border-width:0.5em;
+	border-width:5px;
+	display:block;
+	color:#000000;
+	text-align:center;
+}
+
+note {
 	border-color:#44d;
 	background-color:#66f;
-	display:block;
-	color:#000000
 }
 
 warning {
-	padding:1em;
-	border-radius:0.3em;
-	border-width:0.5em;
 	border-color:#d44;
 	background-color:#f66;
-	display:block;
-	color:#000000
 }
 
 caution {
-	padding:1em;
-	border-radius:0.3em;
-	border-width:0.5em;
 	border-color:#dd4;
 	background-color:#ff6;
-	display:block;
-	color:#000000
 }
