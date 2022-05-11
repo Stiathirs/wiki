@@ -109,3 +109,16 @@ caution {
 	border-color:#dd4;
 	background-color:#ff6;
 }
+code {
+	border-radius: 3px;
+	background: #eee;
+	color:#000;
+}
+
+.die {
+	color:cyan;
+}
+
+.stat {
+	color:#6f6
+}

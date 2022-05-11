@@ -9,7 +9,54 @@
     <!-- Title will be set by script -->
     <h2 id="title"></h2>
     <hr>
-    <p>__Combat__ is an integral part of the game.</p>
+    <p><b>Combat</b> is an integral part of the game. To make progress, you will need to slay monsters that get in your way.</p>
+    <h3>Basics</h3>
+    <p>There are two things you must keep track of to survive combat:</p>
+    <ul>
+      <li>Your Health</li>
+      <li>Their Health</li>
+    </ul>
+    <p><i>Yeah that's it, legit.</i></p>
+    <p>During combat, you can take 3 different actions:</p>
+    <ul>
+      <li>Attack
+        <ul>
+          <li>Attack the monster using your current weapon.</li>
+        </ul>
+      </li>
+      <li>Inventory
+        <ul>
+          <li>Use an item to help you in combat.</li>
+        </ul>
+      </li>
+      <li>Flee
+        <ul>
+          <li>Run away from combat.
+            <ul>
+              <li>This action ends your adventure immediately.</li>
+              <li>You lose 1/6 of your stash if you win initiative and immediately flee, otherwise it's 1/4.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h3>Initiative</h3>
+    <p>The one who goes first is determined by an Initiative roll.</p>
+    <ul>
+      <li>You roll <code><span class="die">1d20</span> + (<span class="stat">Dexterity</span> / 3)</code> rounded down.</li>
+      <li>The opponent rolls <code><span class="die">1d20</span> + KillStreak</code>.
+        <ul>
+          <li>This means that enemies will begin to quickly outroll you.</li>
+        </ul>
+      </li>
+    </ul>
+    <h3>Damage</h3>
+    <p>Over the course of combat, damage will be inflicted to you and your opponent.</p>
+    <ul>
+      <li>You deal <code><span class="die">WeaponDie</span> + (<span class="stat">Strength</span> / 2 - 1)</code> damage rounded down.</li>
+      <li>The enemy deals <code><span class="die">1d8</span> + KillStreak</code> damage.</li>
+    </ul>
+    <p>To max out the amount of damage you inflict, check out [[Weapons]], and check [[Armor]] to reduce the damage you take.</p>
     <!-- Set up the page -->
     <script src="AutoPageSetup.js"></script>
   </body>
