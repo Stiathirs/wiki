@@ -124,6 +124,9 @@ code {
 }
 
 a {
-	color:#0f0
-	
+	color:#0f0	
+}
+
+note a, warning a, caution a {
+	color:#fff
 }
