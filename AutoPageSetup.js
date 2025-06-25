@@ -2,6 +2,7 @@
 document.getElementById("title").innerHTML = document.title.replace(" - Basic RPG Official Wiki","");
 
 // Formatting rules
+document.body.innerHTML = document.body.innerHTML.replace(/---/g,'<hr>'); // Horizontal Rule: ---
 document.body.innerHTML = document.body.innerHTML.replace(/\[!spoil\]/g,'<caution>This page contains potential spoilers. Proceed with caution!</caution>'); // Spoiler template.
 document.body.innerHTML = document.body.innerHTML.replace(/\[(?:warn:)(.*)\]/g,'<warning>$1</warning>'); // Warning message: [warn:Message]
 document.body.innerHTML = document.body.innerHTML.replace(/\[(?:caution:)(.*)\]/g,'<caution>$1</caution>'); // Caution message: [caution:Message]
